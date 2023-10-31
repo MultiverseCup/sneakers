@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(fonts/IBMPlexMono-Regular.ttf);
+}
+
+body {
+  background: #F1F1F1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+.container {
+  display: inline-block;
+  max-width: 370px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 15px;
+  height: fit-content;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+}
+
+img {
+  width: 370px;
+}
+
+.container__image {
+  border-radius: 12px;
+  width: 371px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid #A1A6B4;
+  background: white;
+  justify-content: center;
+  height: 110px;
+}
+
+.logo__header {
+  width: 212.34px;
+  padding-left: 15px;
+}
+
+.div__level__header {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head__links {
+  display: flex;
+  gap: 24px;
+  padding-right: 15px;
+}
+
+.link__header {
+  text-decoration: none;
+  color: black;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.link__footer {
+  text-decoration: none;
+  color: white;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer {
+  background: black;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo__footer {
+  height: 22px;
+  width: auto;
+  padding-left: 15px;
+}
+
+.div__level__footer {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 87px;
+  border-bottom: 1px rgba(230, 232, 236, 0.40) solid;
+}
+
+.copyright {
+  color: white;
+  margin: 18px 639px 21px 617px;
+}
+
+.copyright__text {
+  margin: 0px;
+  width: max-content;
+  color: var(--text_gray, #A1A6B4);
+  font-family: Anonymous Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.collection__text {
+  margin: 15px;
+  color: black;
+  font-family: "IBM Plex Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.card__text {
+  margin: 32px 24px;
+  color: var(--black, #121723);
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container__title {
+  margin: 0px;
+}
+
+.container__text {
+  margin: 0px;
+  margin-top: 10px;
+}
